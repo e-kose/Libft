@@ -6,7 +6,7 @@
 /*   By: ekose <ekose@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 19:34:56 by ekose             #+#    #+#             */
-/*   Updated: 2023/10/20 14:13:39 by ekose            ###   ########.fr       */
+/*   Updated: 2023/10/21 12:38:39 by ekose            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,14 +23,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-// void aupper(unsigned int i, char *c)
-// {
-// 	if (*c >= 'a' && *c <= 'z' )
-// 		*c -= 32;
-// }
-// int main()
-// {
-// 	char a[]="ertu";
-// 	ft_striteri(a,aupper);
-// 	printf("%s",a);
-// }

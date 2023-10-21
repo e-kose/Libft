@@ -6,7 +6,7 @@
 /*   By: ekose <ekose@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/14 17:14:28 by ekose             #+#    #+#             */
-/*   Updated: 2023/10/20 14:27:45 by ekose            ###   ########.fr       */
+/*   Updated: 2023/10/20 18:51:04 by ekose            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,15 +19,14 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	int		j;
 	char	*p;
 
+	if (!s1 && !s2)
+		return (ft_strdup(""));
 	len = ft_strlen(s1) + ft_strlen(s2);
 	i = 0;
 	j = ft_strlen(s1);
-	if (!s1[i] && !s2[i])
-	{
-		p = malloc(1 * sizeof(char));
-		return (p);
-	}
 	p = malloc(sizeof(char) * (len) + 1);
+	if (!p)
+		return (0);
 	ft_memcpy(p, s1, ft_strlen(s1));
 	while (i < ft_strlen(s2))
 	{

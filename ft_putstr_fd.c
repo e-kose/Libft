@@ -6,12 +6,11 @@
 /*   By: ekose <ekose@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 00:36:06 by ekose             #+#    #+#             */
-/*   Updated: 2023/10/20 14:31:00 by ekose            ###   ########.fr       */
+/*   Updated: 2023/10/21 12:38:16 by ekose            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <fcntl.h>
 
 void	ft_putstr_fd(char *s, int fd)
 {

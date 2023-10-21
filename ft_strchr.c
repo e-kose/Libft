@@ -29,11 +29,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s + i);
 	return (0);
 }
-// int main () {
-//    const char str[] = "https://www.tutorialspoint.com";
-//    const char ch = '\0';
-
-//    printf("String after |%c| is - |%s|\n", ch, ft_strchr(str, ch));
-
-//    return(0);
-//}

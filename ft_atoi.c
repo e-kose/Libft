@@ -6,7 +6,7 @@
 /*   By: ekose <ekose@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 18:03:48 by ekose             #+#    #+#             */
-/*   Updated: 2023/10/15 20:48:54 by ekose            ###   ########.fr       */
+/*   Updated: 2023/10/21 12:36:53 by ekose            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,17 +36,3 @@ int	ft_atoi(const char *str)
 	}
 	return (isaret * sayi);
 }
-// int main () {
-//    int val;
-//    char str[20];
-
-//    strcpy(str, "  -98993489");
-//    val = ft_atoi(str);
-//    printf("String value = %s, Int value = %d\n", str, val);
-
-//    strcpy(str, "tutorialspoint.com");
-//    val = ft_atoi(str);
-//    printf("String value = %s, Int value = %d\n", str, val);
-
-//    return(0);
-//}

@@ -6,7 +6,7 @@
 /*   By: ekose <ekose@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/14 15:09:05 by ekose             #+#    #+#             */
-/*   Updated: 2023/10/20 14:30:02 by ekose            ###   ########.fr       */
+/*   Updated: 2023/10/21 12:16:48 by ekose            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,16 +17,16 @@ char	*ft_substr(char	const *s, unsigned int start, size_t len)
 	unsigned int	i;
 	char			*p;
 
-	if (start >= ft_strlen(s))
+	if (start > ft_strlen(s))
 	{
-		p = malloc(1 * sizeof(char));
-		p[0] = '\0';
-		return (p);
+		return (ft_strdup(""));
 	}
+	if (ft_strlen(s) < len)
+		len = ft_strlen(s);
 	i = 0;
 	p = malloc((sizeof(char)) * (len + 1));
 	if (p == NULL)
-		return (0);
+		return (NULL);
 	while (s[start] && i < len)
 	{
 		p[i] = s[start];

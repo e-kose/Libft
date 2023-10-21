@@ -6,7 +6,7 @@
 /*   By: ekose <ekose@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 18:54:55 by ekose             #+#    #+#             */
-/*   Updated: 2023/10/15 19:18:55 by ekose            ###   ########.fr       */
+/*   Updated: 2023/10/21 12:38:54 by ekose            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,15 +33,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	p[i] = '\0';
 	return (p);
 }
-// char atoupper(unsigned int i, char c)
-// {
-// 	i = 0;
-// 	if (c >= 'a' && c <= 'z')
-// 		return (c - 32);
-// 	return (c);
-// }
-// int main()
-// {
-// 	char a[]="Ertu";
-// 	printf("%s",ft_strmapi(a,atoupper));
-// }

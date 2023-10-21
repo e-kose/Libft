@@ -6,7 +6,7 @@
 /*   By: ekose <ekose@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 11:41:02 by ekose             #+#    #+#             */
-/*   Updated: 2023/10/14 19:35:57 by ekose            ###   ########.fr       */
+/*   Updated: 2023/10/21 12:38:59 by ekose            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,15 +28,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
-
-// int main(void)
-// {
-//     const char *cp1 = "Bilgisayar";
-//     const char *cp2 = "Bilgileri";
-//     int ret;
-
-//     ret = ft_strncmp(cp1, cp2, 6);
-// 	printf("%d",ret);
-
-//     return 0;
-// }

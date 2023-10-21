@@ -6,13 +6,13 @@
 /*   By: ekose <ekose@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/14 19:43:34 by ekose             #+#    #+#             */
-/*   Updated: 2023/10/20 14:22:46 by ekose            ###   ########.fr       */
+/*   Updated: 2023/10/20 19:04:46 by ekose            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static size_t	ft_nmb_size(int c)
+static size_t	ft_nmb_size(long c)
 {
 	size_t	i;
 

@@ -6,7 +6,7 @@
 /*   By: ekose <ekose@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 01:47:48 by ekose             #+#    #+#             */
-/*   Updated: 2023/10/16 02:13:50 by ekose            ###   ########.fr       */
+/*   Updated: 2023/10/21 12:38:00 by ekose            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,3 @@ void	ft_putnbr_fd(int n, int fd)
 	else
 		ft_putchar_fd(n + '0', fd);
 }
-// int main()
-// {
-// 	int a =-123;
-// 	ft_putnbr_fd(a,1);
-// }
