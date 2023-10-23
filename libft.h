@@ -6,7 +6,7 @@
 /*   By: ekose <ekose@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/14 19:22:32 by ekose             #+#    #+#             */
-/*   Updated: 2023/10/22 16:16:04 by ekose            ###   ########.fr       */
+/*   Updated: 2023/10/23 18:27:38 by ekose            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,5 +68,4 @@ char	*ft_strchr(const char *s, int c);
 char	*ft_strdup(const char *s1);
 char	*ft_itoa(int n);
 
-int main();
 #endif
