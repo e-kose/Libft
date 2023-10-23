@@ -6,7 +6,7 @@
 /*   By: ekose <ekose@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 13:55:59 by ekose             #+#    #+#             */
-/*   Updated: 2023/10/21 15:27:22 by ekose            ###   ########.fr       */
+/*   Updated: 2023/10/21 16:28:37 by ekose            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,12 @@
 static int	ft_worldlen(const char *s, char c, int start)
 {
 	int	i;
-	int	count;
 
-	i = start;
-	count = 0;
-	while (s[i] && s[i] != c)
+	i = 0;
+	while (s[start] && s[start] != c)
 	{
 		i++;
-		count++;
+		start++;
 	}
 	return (i);
 }

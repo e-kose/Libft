@@ -6,7 +6,7 @@
 /*   By: ekose <ekose@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 11:01:01 by ekose             #+#    #+#             */
-/*   Updated: 2023/10/20 14:29:44 by ekose            ###   ########.fr       */
+/*   Updated: 2023/10/23 13:50:48 by ekose            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,4 @@ char	*ft_strtrim(char const *s1, char const *set)
 	p = ft_substr(s1, i, ((j - i) + 1));
 	return (p);
 }
+da ali ad
